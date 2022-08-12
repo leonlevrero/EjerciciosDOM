@@ -6,6 +6,12 @@ const DATA = [
   { name: "Fernando", lastname: "Saavedra" },
 ];
 
-// Escribe el código necesario aquí
+  const container = document.getElementById("container");
+  const paragraph = document.createElement("p")
+  for ( var i = 0; i < DATA.length; i++ ) {
+    paragraph.innerText +=  DATA[i].name + " " + DATA[i].lastname; 
+   container.appendChild(paragraph);
+    
+ }
 
-//
+  

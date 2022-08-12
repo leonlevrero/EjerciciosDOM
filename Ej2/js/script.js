@@ -9,7 +9,5 @@
       document.getElementById("highlight").addEventListener("click", function () {
        // document.getElementById("lorem").classList.add("highlight");
         document.getElementById("lorem").className="highlight";
-         });
-    
-    
+         }); 
     });
